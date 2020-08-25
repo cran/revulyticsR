@@ -1,6 +1,6 @@
 Package: revulyticsR
 Title: Connect to Your 'Revulytics' Data
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: 
     c(person(given = "Chris",
            family = "Umphlett",
@@ -13,7 +13,7 @@ Authors@R:
 Description: Facilitates making a connection to the 
   'Revulytics' API and executing various queries. You can use it to
   get event data and metadata. The Revulytics documentation 
-  is available at <https://docs.flexera.com/ui551/report/>. This
+  is available at <https://docs.revenera.com/ui551/report/>. This
   package is not supported by 'Flexera' (owner of the software). 
 Suggests: knitr, rmarkdown, ggplot2
 Depends: R (>= 3.6.0)
@@ -25,11 +25,11 @@ LazyData: true
 Imports: dplyr (>= 0.8.4), magrittr (>= 1.5), jsonlite (>= 1.6.1),
         purrr (>= 0.3.3), httr (>= 1.4.1), tidyselect (>= 1.0.0), tidyr
         (>= 1.0.0), tibble (>= 1.0.3)
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.1
 NeedsCompilation: no
-Packaged: 2020-06-12 23:03:09 UTC; c.umphlett
+Packaged: 2020-08-24 15:57:19 UTC; c.umphlett
 Author: Chris Umphlett [aut, cre],
   Avinash Panigrahi [aut]
 Maintainer: Chris Umphlett <christopher.umphlett@gmail.com>
 Repository: CRAN
-Date/Publication: 2020-06-19 10:30:03 UTC
+Date/Publication: 2020-08-25 11:00:02 UTC

@@ -1,3 +1,7 @@
+# revulyticsR 0.0.2
+* Added a `RETRY()` to safely retry an API request certain number of times before returning a error code.
+* Added `get_daily_client_properties()` to pull daily values of properties for a product within a given date range.
+
 # revulyticsR 0.0.1
 
 * `get_active_users()` created. For a given period of time (a day, week, or month) Revulytics' API summarizes and returns the number of active users. With this function you can return daily, weekly, or monthly active users for multiple product ids.
